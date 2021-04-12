@@ -15,7 +15,7 @@
 		echo "</pre>";
 
 	}
-	//verbindingding
+	//verbindingding 
         $host = "localhost:3306";
         $db = "aventus-165681_portfolio";
   		$user = "avent_165681";
