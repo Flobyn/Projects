@@ -19,7 +19,7 @@
         $host = "localhost:3306";
         $db = "aventus-165681_portfolio";
   		$user = "avent_165681";
-  		$pass = 'X9sfkn*l46SgiRmk';
+  		$pass = '';
   		$charset = 'utf8mb4';
   
   //connection string en PDO settings
