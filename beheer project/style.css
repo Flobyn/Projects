@@ -1,0 +1,106 @@
+body {
+	background-color: #457b9d;
+	margin: 0;
+}
+body, html {
+	height: 100%;
+}
+.header{
+	background-color: white;
+	top: 0;
+	padding: 10px
+}
+
+/* formulier beheerder */
+form{
+	text-align: center;
+}
+input {
+  	width: 50%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+	text-align: center;
+}
+
+/* formulier klant*/
+.item {
+	margin-left: 25%;
+    display: block;
+    width: 35%;
+}
+label {
+    display: inline;
+}
+input[type=checkbox] {
+    display: inline;
+}
+
+/* tabel producten*/
+#bestellingen_overzicht{
+	border-collapse: collapse;
+	width: 50%;
+	float: left;
+	margin-left: 18%;
+}
+#overzicht{
+	border-collapse: collapse;
+	width: 50%;
+	float: left;
+	margin-left: 25%;
+}
+#overzicht td, #overzicht th, #bestellingen_overzicht td, #bestellingen_overzicht th {
+	border: 1px solid white;
+	padding: 8px;
+}
+
+#overzicht tr:hover, #bestellingen_overzicht tr:hover {
+	background-color: white;
+}
+
+#overzicht th, #bestellingen_overzicht th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #1d3557;
+	color: white;
+}
+
+/* tekts*/
+h1 { 
+	color: #1d3557;
+	margin: 20px 10px;
+	text-align: center;
+}
+h2 { 
+	color: #1d3557;
+	margin: 20px 10px;
+	text-align: center;
+}
+h3 {
+	color: black;
+}
+p{
+	text-align: center;
+}
+
+/* navbar */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid white;
+	background-color: white;
+}
+li {
+	float: left;
+	margin-left: 17%;
+}
+li a {
+	display: block;
+	color: #666;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
