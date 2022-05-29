@@ -1,0 +1,91 @@
+* {
+    font-family:monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color:#343a40;
+    color: #fefefe;
+}
+
+header{
+    background-color: #fefefe;
+    color: #343a40;
+    padding: 10px;
+}
+
+.score-board{
+    border: 3px solid #fefefe;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 46px;
+    padding: 15px 20px;
+    position: relative;
+}
+.badge{
+    background-color: #589595 ;
+    border-radius: 5px;
+    position: absolute;
+    padding: 3px 10px ;
+    font-size: 18px;
+}
+#user-label{
+    top: 25px;
+    left: -30px;
+}
+#computer-label{
+    top: 25px;
+    right: -35px;
+}
+
+.result{
+    font-size: 40px;
+}
+
+.choices{
+    margin: 50px 0 10px;
+}
+.choice{
+    border-radius: 80%;
+    display:inline-block;
+    margin: 0 20px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+.choice:hover{
+   cursor: pointer;
+   background-color: #fefefe; 
+}
+
+.instructions p{
+    font-size: 15px;
+}
+.instructions a{
+    color: #fefefe;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.instructions a:hover{
+    cursor: pointer;
+    color: #589595; 
+}
+
+#message {
+    display: none;
+    font-size: 40px;
+    padding: 10px;
+}
+
+@media (max-width: 1180px){
+    #desktop {
+        display: none;
+    }
+
+    #message {
+        display: block;
+    }
+}
